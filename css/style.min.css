@@ -874,6 +874,7 @@ td {
   visibility: hidden;
 }
 .popup.--active {
+  z-index: 2;
   opacity: 1;
   visibility: visible;
 }
