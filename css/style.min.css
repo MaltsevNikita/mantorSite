@@ -62,7 +62,7 @@ body {
 }
 
 .header {
-  background-image: url("/../images/header-rectangle.png");
+  background-image: url("../images/header-rectangle.png");
   padding-top: 300px;
   margin: 0;
   padding: 0;
