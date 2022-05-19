@@ -62,20 +62,18 @@ body {
 }
 
 .header {
-  background-image: url("../images/header-rectangle.png");
-  background-position: center;
+  background-image: url("/../images/header-rectangle.png");
   padding-top: 300px;
   margin: 0;
   padding: 0;
   font-family: "CenturyGothic";
-  z-index: 2;
 }
 
 .header__brandElement {
   padding: absolute;
-  z-index: 3;
+  z-index: 2;
   margin: 0;
-  padding-left: 25%;
+  padding-left: 10%;
 }
 
 .header__logoImg {
@@ -869,12 +867,11 @@ td {
 }
 
 .popup {
-  position: relative;
+  position: absolute;
   opacity: 0;
   visibility: hidden;
 }
 .popup.--active {
-  z-index: 2;
   opacity: 1;
   visibility: visible;
 }
@@ -888,10 +885,10 @@ td {
   left: 0;
 }
 .popup__window {
-  position: absolute;
-  top: 25%;
+  position: fixed;
+  top: 30px;
   left: 25%;
-  width: 60%;
+  width: 60vw;
   background-color: #fff;
 }
 .popup__title {
