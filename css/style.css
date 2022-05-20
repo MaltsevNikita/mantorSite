@@ -846,13 +846,13 @@ td {
 }
 
 .no-webp .contacts{
-  background-image: url("/../images/header-rectangle.png"); }
+  background-image: url("../images/header-rectangle.png"); }
 
 .contacts {
   background-size: cover;
   padding-top: 300px;
   margin: 0;
-  padding: 0;
+  padding: 100px;
   font-family: "CenturyGothic";
   color: #fff;
 }
@@ -1089,4 +1089,4 @@ td {
 
 .webp .waranty-block{ background: url(../images/waranty-bkg.webp); }
 
-.webp .contacts{ background-image: url(/../images/header-rectangle.webp); }
+.webp .contacts{ background-image: url(../images/header-rectangle.webp); }
