@@ -58,8 +58,6 @@ h6 {
 
 html,
 body {
-  height: 100%;
-  line-height: 1;
   font-size: 16px;
   font-family: "CenturyGothic";
   -webkit-box-sizing: border-box;
@@ -99,10 +97,11 @@ body {
 
 .header__mainMenu {
   position: absolute;
+  z-index: 2;
   width: 100%;
   top: 163px;
   left: 0px;
-  font-family: CenturyGothic;
+  font-family: partnerultracondensed;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -399,7 +398,7 @@ body {
 }
 
 .logo-section-top__title {
-  padding-right: 180px;
+  padding-right: 37%;
   -webkit-transform: translateY(15px);
       -ms-transform: translateY(15px);
           transform: translateY(15px);
@@ -418,8 +417,9 @@ body {
 table {
   font-family: CenturyGothic;
   font-size: 14px;
+  font-weight: 400;
   line-height: 17px;
-  width: 540px;
+  width: 36%;
   padding-bottom: 89px;
 }
 
@@ -681,7 +681,7 @@ td {
           transform: translateX(-75px);
 }
 
-.serviceBlock {
+.partner-serviceBlock {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -690,11 +690,7 @@ td {
           justify-content: center;
 }
 
-.serviceBlock__leftSide {
-  padding-right: 158px;
-}
-
-.serviceBlock__rightSide {
+.partner-serviceBlock__rightSide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -707,17 +703,19 @@ td {
           flex-direction: column;
 }
 
-.serviceBlock-rightSide-image {
+.partner-serviceBlock-rightSide-image {
   padding-bottom: 12px;
+  width: 50%;
 }
 
-.image-subtitle {
+.partner-serviceBlock__image-subtitle {
   font-family: Century Gothic;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
+  max-width: 207px;
 }
 
 .no-webp .shop-points{
@@ -1025,6 +1023,7 @@ td {
   position: absolute;
   opacity: 0;
   visibility: hidden;
+  z-index: 4;
 }
 
 .popup.--active {
@@ -1079,6 +1078,102 @@ td {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header__brandElement {
+    width: 64%;
+    -webkit-transform: translateX(25%);
+        -ms-transform: translateX(25%);
+            transform: translateX(25%);
+  }
+
+  .mainMenu-list {
+    font-family: partnerultracondensed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 0;
+    padding-left: 39px;
+    margin: 0;
+    -webkit-transform: translateY(-55%);
+        -ms-transform: translateY(-55%);
+            transform: translateY(-55%);
+  }
+
+  .mainMenu-list__item {
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    font-size: 14px;
+    word-spacing: 2px;
+  }
+
+  .mainMenu-list__item:last-child {
+    padding-top: 20px;
+  }
+
+  .footer-mainMenu-list {
+    -webkit-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+            transform: translateY(10px);
+    cursor: pointer;
+  }
+
+  .service-ico {
+    max-width: 200px;
+  }
+
+  .twoSteps-block__steps {
+    margin: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .twoSteps-block__step {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .twoSteps-block__StepImage {
+    max-height: 72px;
+  }
+
+  .twoSteps-block__stepDescription {
+    font-size: 14px;
+  }
+
+  .logo-section-top__title {
+    font-size: 24px;
+  }
+
+  .logo-section-top__img {
+    display: none;
+  }
+
+  .logo-section-table-td {
+    max-width: 214px;
+    word-wrap: break-word;
+    font-size: 14px;
+  }
+
+  .partner-tabs {
+    padding-top: 150px;
+  }
+
+  .serviceBlock-leftSide-image {
+    padding-right: 0;
+    margin-right: 0;
+    width: 80%;
+    height: 80%;
+  }
 }
 
 .webp .header{ background-image: url(../images/header-rectangle.webp); }
