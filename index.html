@@ -1,33 +1,1288 @@
-<link rel="stylesheet" href="css/style.css">
-<div class="front-page">
-  <div class="container">
-    <div class="front-page-leftMenu">
-      <ul>
-        <a href="main.html#tab_01">
-          <li>О компании</li>
-        </a>
-        <a href="main.html#tab_02">
-          <li>Каталог</li>
-        </a>
-        <a href="main.html#tab_03">
-          <li>Стать партнёром</li>
-        </a>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css?_v=20220613111310">
+  <title>Mantor</title>
+</head>
+
+<body>
+    
+    <header class="header">
+    <picture><source srcset="images/BrandElement2-1.webp" type="image/webp"><img class="header__brandElement" src="images/BrandElement2-1.png" alt="brandElement"></picture>
+    <picture><source srcset="images/MantorSiteLogo-1.webp" type="image/webp"><img src="images/MantorSiteLogo-1.png" alt="MantorSiteLogo 1" class="header__logoImg"></picture>
+      <ul class="mainMenu-list">
+        <li class="mainMenu-list__item mainMenu-list__item--active "> 
+          <a class="mainMenu-list__link" 
+          href="#tab_01">О компании</a></li>
+        <li class="mainMenu-list__item"> <a class="mainMenu-list__link" 
+          href="#tab_02">Каталог</a></li>
+        <li class="mainMenu-list__item"> <a class="mainMenu-list__link" 
+          href="#tab_03">Стать партнёром</a></li>
+        <li class="mainMenu-list__item"> <a class="mainMenu-list__link" 
+          href="#tab_04">Где купить</a></li>
+        <li class="mainMenu-list__item"> <a class="mainMenu-list__link"
+          href="#tab_05">сервисные центры</a></li>
+        <li class="mainMenu-list__item"> <a class="mainMenu-list__link" 
+          href="#tab_06">Гарантии</a></li>
+        <li class="mainMenu-list__item"> <a class="mainMenu-list__link" 
+          href="#tab_07">Контакты</a></li>
+        <li class="mainMenu-list__item mainMenu-list__item--last">
+          <p id="popupOpen" class="mainMenu-list__link">Оставить заявку</p>
+        </li>
       </ul>
+    <!-- <div>
+      <picture><source srcset="..images/bottom-line-white.webp" type="image/webp"><img class="bottom-line" src="..images/bottom-line-white.png" alt="bottom-line-white"></picture>
+    </div> -->
+</header>
+<div class="body">
+  <!-- ===========tabs======================== -->
+  <div class="tabs">
+    <div class="tabs__body" >
+      <div class="tabs__block" id="tab_01">
+        <section class="hero">
+          <div class="container">
+            <div class="text-block">
+              <h1 class="hero__mainTitle">
+                MANTOR — коллаборация качества, цены и технологии в сфере запасных частей
+              </h1>
+              <p class="hero__description">
+                Торговая марка MANTOR была образована в 2015 году. У нашей компании заключено ряд контрактов с лучшими
+                производственными
+                линиями на различных производствах в Китае. <br>
+                <br>
+                На мировом рынке большая часть АНАЛОГОВ упакованы в белые коробки или не имеют названия. У таких деталей
+                непонятное
+                качество, неизвестный производитель и нет гарантии в России.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="experience-cards-block">
+          <div class="container">
+            <div class="body__experience-title title">
+              Многолетний опыт MANTOR
+            </div>
+          
+          <div class="body__experience-description">
+            Готовы представить Вам торговую марку MANTOR. Мы постоянно работаем над улучшением качества продукции
+          </div>
+        
+          <div class="body__experience-cards">
+            <div class="experience-card">
+              <picture><source srcset="images/factory.webp" type="image/webp"><img class="experience-card__card-img" src="images/factory.jpg" alt="factory" class="card-img"></picture>
+              <p class="experience-card__card-description">
+                Выбрали только лучшие производства в Китае
+              </p>
+            </div>
+            <div class="experience-card">
+              <picture><source srcset="images/paper-holder.webp" type="image/webp"><img class="experience-card__card-img" src="images/paper-holder.jpg" alt="paper-holder" class="card-img"></picture>
+              <p class="experience-card__card-description">
+                Проверили оборудование на соответсвие
+                стандартам качества
+              </p>
+            </div>
+            <div class="experience-card">
+              <picture><source srcset="images/gear.webp" type="image/webp"><img class="experience-card__card-img" src="images/gear.jpg" alt="gear" class="card-img"></picture>
+              <p class="experience-card__card-description">
+                Нашли производителей всех комплектующих
+              </p>
+            </div>
+            <div class="experience-card">
+              <picture><source srcset="images/people.webp" type="image/webp"><img class="experience-card__card-img" src="images/people.jpg" alt="people" class="card-img"></picture>
+              <p class="experience-card__card-description">
+                Вложились в дополнительное обучение персонала
+              </p>
+            </div>
+            <div class="experience-card">
+              <picture><source srcset="images/factory.webp" type="image/webp"><img class="experience-card__card-img" src="images/factory.jpg" alt="factory" class="card-img"></picture>
+              <p class="experience-card__card-description">
+                Ввели двухуровневый контроль качества готовой продукции
+              </p>
+            </div>
+          </div>
+        </div>
+        </section>
+        <section class="mission">
+          <div class="container">
+            <div class="mission__title title">
+              Миссия
+            </div>
+            <div class="mission__description description-block">
+              <p class="description-block__text">Торговая марка MANTOR позиционируется как качественный продукт по доступной
+                цене. Объединив свои возможности со своим
+                опытом</p>
+              <p class="description-block__text">Мы можем добиться улучшения нашего качества жизни и новых достижений в
+                работе.
+              </p>
+              <p class="description-block__text">Меняем мир к лучшему вместе.</p>
+            </div>
+          </div>       
+        </section>
+
+        <section class="technology">
+          <div class="container">
+            <div class="technology__title title">Технологии</div>
+            <div class="technology__description">
+              Под торговой маркой MANTOR Вы можете встретить:
+            </div>
+            <div class="technology-/../images-block">
+              <picture><source srcset="images/technology-group1-img-2.webp" type="image/webp"><img class="technology-/../images-block__image" src="images/technology-group1-img-2.png" alt="technology-img"></picture>
+              <picture><source srcset="images/technology-group1-img-2.webp" type="image/webp"><img class="technology-/../images-block__image" src="images/technology-group1-img-2.png" alt="technology-img"></picture>
+              <picture><source srcset="images/technology-group1-img-3.webp" type="image/webp"><img class="technology-/../images-block__image" src="images/technology-group1-img-3.png" alt="technology-img"></picture>
+            </div>
+            <div class="technology-notes">
+              <p class="technology-notes__note">Как отмечают сотрудники сервисных центров, данные запчасти не уступают
+                оригинальной продукции. Они имеют высокие
+                характеристики в соответствии с мировыми стандартами.</p>
+              <p class="technology-notes__note">Вся продукция сертифицирована.</p>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
-    <div class="front-page-rightMenu">
-      <ul>
-        <a href="main.html#tab_04">
-          <li>сервисные центры</li>
-        </a>
-        <a href="main.html#tab_05">
-          <li>Где купить</li>
-        </a>
-        <a href="main.html#tab_06">
-          <li>Контакты</li>
-        </a>
-      </ul>
+    <div class="tabs__body">
+      <div class="tabs__block" id="tab_02">
+        <section class="catalogue-section">
+          <div class="catalogue-section-item">
+            <div class="catalogue-section-container">
+              <div class="catalogue-section-container-top">
+                <div class="catalogue-section-text">
+                  <h2 class="catalogue-section-title">
+                    Каталог продукции
+                  </h2>
+                  <h2 class="catalogue-section__item-description">
+                    ИНЖЕКТОР (ФОРСУНКА) мультипликатор
+                  </h2>
+                </div>
+                <picture><source srcset="images/injector.webp" type="image/webp"><img class = "thumbnail injector" src="images/injector.png" alt="injector"></picture>
+              </div>
+              <div class="fuel-section">
+                <div class="bosh-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система bosh</h3>
+                    <picture><source srcset="images/BoshLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/BoshLogo.png" alt="BoshLogo"></picture>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+        
+                </div>
+                <div class="denso-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система denso</h3>
+                    <span><picture><source srcset="images/DensoLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/DensoLogo.png" alt="DensoLogo"></picture></span>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="catalogue-section-item">
+            <div class="catalogue-section-container">
+              <div class="catalogue-section-container-top">
+                <div class="catalogue-section-text">
+                  <h2 class="catalogue-section__item-description">
+                    КЛАПАН СО ШТОКОМ мультипликатор
+                  </h2>
+                </div>
+                <picture><source srcset="images/valve.webp" type="image/webp"><img class="thumbnail valve" src="images/valve.png" alt="valve"></picture>
+              </div>
+              <div class="fuel-section">
+                <div class="bosh-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система bosh</h3>
+                    <picture><source srcset="images/BoshLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/BoshLogo.png" alt="BoshLogo"></picture>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+        
+                </div>
+                <div class="denso-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система denso</h3>
+                    <span><picture><source srcset="images/DensoLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/DensoLogo.png" alt="DensoLogo"></picture></span>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--=========== valve end ============-->
+          <div class="catalogue-section-item">
+            <div class="catalogue-section-container">
+              <div class="catalogue-section-container-top">
+                <div class="catalogue-section-text">
+                  <h2 class="catalogue-section__item-description">
+                    РАСПЫЛИТЕЛЬ
+                  </h2>
+                </div>
+                <picture><source srcset="images/spray.webp" type="image/webp"><img class="thumbnail spray" src="images/spray.png" alt="spray"></picture>
+              </div>
+              <div class="fuel-section">
+                <div class="bosh-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система bosh</h3>
+                    <picture><source srcset="images/BoshLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/BoshLogo.png" alt="BoshLogo"></picture>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+        
+                </div>
+                <div class="denso-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система denso</h3>
+                    <span><picture><source srcset="images/DensoLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/DensoLogo.png" alt="DensoLogo"></picture></span>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ========spray end============== -->
+          <div class="catalogue-section-item">
+            <div class="catalogue-section-container">
+              <div class="catalogue-section-container-top">
+                <div class="catalogue-section-text">
+                  <h2 class="catalogue-section__item-description">
+                    ШТУЦЕР / КОННЕКТОР
+                  </h2>
+                </div>
+                <picture><source srcset="images/connector.webp" type="image/webp"><img class="thumbnail valve" src="images/connector.png" alt="connector"></picture>
+              </div>
+              <div class="fuel-section">
+                <div class="bosh-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система bosh</h3>
+                    <picture><source srcset="images/BoshLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/BoshLogo.png" alt="BoshLogo"></picture>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+        
+                </div>
+                <div class="denso-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система denso</h3>
+                    <span><picture><source srcset="images/DensoLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/DensoLogo.png" alt="DensoLogo"></picture></span>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ======connector end =========-->
+          <div class="catalogue-section-item">
+            <div class="catalogue-section-container">
+              <div class="catalogue-section-container-top">
+                <div class="catalogue-section-text">
+                  <h2 class="catalogue-section__item-description">
+                    ремкомплект форсунки
+                  </h2>
+                </div>
+                <picture><source srcset="images/repairKit.webp" type="image/webp"><img class="thumbnail valve" src="images/repairKit.png" alt="repairKit"></picture>
+              </div>
+              <div class="fuel-section">
+                <div class="bosh-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система bosh</h3>
+                    <picture><source srcset="images/BoshLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/BoshLogo.png" alt="BoshLogo"></picture>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+        
+                </div>
+                <div class="denso-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система denso</h3>
+                    <span><picture><source srcset="images/DensoLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/DensoLogo.png" alt="DensoLogo"></picture></span>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ======repairKit end =========-->
+          <div class="catalogue-section-item">
+            <div class="catalogue-section-container">
+              <div class="catalogue-section-container-top">
+                <div class="catalogue-section-text">
+                  <h2 class="catalogue-section__item-description">
+                    ГАЙКА РАСПЫЛИТЕЛЯ
+                  </h2>
+                </div>
+                <picture><source srcset="images/atomizerNut.webp" type="image/webp"><img class="thumbnail valve" src="images/atomizerNut.png" alt="atomizerNut"></picture>
+              </div>
+              <div class="fuel-section">
+                <div class="bosh-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система bosh</h3>
+                    <picture><source srcset="images/BoshLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/BoshLogo.png" alt="BoshLogo"></picture>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+        
+                </div>
+                <div class="denso-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система denso</h3>
+                    <span><picture><source srcset="images/DensoLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/DensoLogo.png" alt="DensoLogo"></picture></span>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ======atomizerNut end =========-->
+          <div class="catalogue-section-item">
+            <div class="catalogue-section-container">
+              <div class="catalogue-section-container-top">
+                <div class="catalogue-section-text">
+                  <h2 class="catalogue-section__item-description">
+                    СОЛЕНОИД / ЭЛЕКТРОМАГНИТ
+                  </h2>
+                </div>
+                <picture><source srcset="images/solenoid.webp" type="image/webp"><img class="thumbnail valve" src="images/solenoid.png" alt="solenoid"></picture>
+              </div>
+              <div class="fuel-section">
+                <div class="bosh-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система bosh</h3>
+                    <picture><source srcset="images/BoshLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/BoshLogo.png" alt="BoshLogo"></picture>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+        
+                </div>
+                <div class="denso-section">
+                  <div class="logo-section-top">
+                    <h3 class="logo-section-top__title">топливная система denso</h3>
+                    <span><picture><source srcset="images/DensoLogo.webp" type="image/webp"><img class="logo-section-top__img" src="images/DensoLogo.png" alt="DensoLogo"></picture></span>
+                  </div>
+                  <div class="logo-section-table">
+                    <table>
+                      <tr>
+                        <th>Артикул</th>
+                        <th>Применение</th>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                      <tr>
+                        <td>0445120054</td>
+                        <td class="logo-section-table-td">2855491/504091504/0000504091504/0032816550040</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ======solenoid end =========-->
+        </section>
+      </div>
     </div>
+    <div class="tabs__body">
+      <div class="tabs__block" id="tab_03">
+        <div class="partner-tabs">
+          <div class="partner-tabs-list" id="partnerTabs">
+            <div class="partner-tabs-list__item --active" data-btn = "1">Для магазинов</div>
+            <div class="partner-tabs-list__item" data-btn = "2">Для сервисных центров</div>
+          </div>
+<!-- Для магазинов ====================================-->
+          <div class="partner-tabs__body partner-tabs__body --active" data-content = "1">
+            <h2 class="partner-tabs-body__title">Преимущества магазинов —партнеров MANTOR</h2>
+            <h3 class="partner-tabs-body__description">Магазины, сотрудничающие с MANTOR, получают преимущества:</h3>
+            <div class="body__experience-cards">
+              <div class="experience-card">
+                <picture><source srcset="images/ShopAdvantage-1.webp" type="image/webp"><img class="experience-card__card-img" src="images/ShopAdvantage-1.png" alt="certificate" class="card-img"></picture>
+                <p class="experience-card__card-description">
+                  Сертификат дилера
+                </p>
+              </div>
+              <div class="experience-card">
+                <picture><source srcset="images/ShopAdvantage-2.webp" type="image/webp"><img class="experience-card__card-img" src="images/ShopAdvantage-2.png" alt="price" class="card-img"></picture>
+                <p class="experience-card__card-description">
+                  Специальные цена на продукцию
+                </p>
+              </div>
+              <div class="experience-card">
+                <picture><source srcset="images/ShopAdvantage-3.webp" type="image/webp"><img class="experience-card__card-img" src="images/ShopAdvantage-3.png" alt="promotion" class="card-img"></picture>
+                <p class="experience-card__card-description">
+                  Продвижение и сопровождение
+                </p>
+              </div>
+              <div class="experience-card">
+                <picture><source srcset="images/ShopAdvantage-4.webp" type="image/webp"><img class="experience-card__card-img" src="images/ShopAdvantage-4.png" alt="obligations" class="card-img"></picture>
+                <p class="experience-card__card-description">
+                  Оперативное выполнение гарантийных обязательств
+                </p>
+              </div>
+            </div>
+            <div class="twoSteps-block">
+              <h2 class="twoSteps-block__title">
+                Два шага для получения дилерского сертификата
+              </h2>
+              <div class="twoSteps-block__steps">
+                <div class="twoSteps-block__step">
+                  <picture><source srcset="images/step1.webp" type="image/webp"><img class="twoSteps-block__StepImage" src="images/step1.png" alt="step1"></picture>
+                  <p class="twoSteps-block__stepDescription">Подать заявку и заключить договор на поставку продукции MANTOR с ООО «Тим Групп»</p>
+                </div>
+                <div class="twoSteps-block__step">
+                  <picture><source srcset="images/step2.webp" type="image/webp"><img class="twoSteps-block__StepImage" src="images/step2.png" alt="step2"></picture>
+                  <p class="twoSteps-block__stepDescription">Осуществлять закупку продукции на сумму от 150000 рублей в месяц</p>
+                </div>
+              </div>
+              <div class="application-block">
+              <h2 class="application-block__title">заявка на партнёрство</h2>
+              <h3 class="application-block__description">
+                Оставьте свои контактные данные. Мы свяжемся с вами в близжайшее время
+              </h3>
+
+              <form class="form" action="#">
+                <input class="form__form-input" type="text" placeholder="Имя">
+                <input class="form__form-input" type="text" placeholder="Название организации">
+                <input class="form__form-input" type="text" placeholder="Телефон">
+                <button class="order-call-btn" type="submit">
+                  Оставить заявку
+                </button>
+<!--===========================bottom-line===================-->
+                <div class="bottom-line">
+                </div>
+              </form>
+            </div>
+            <!-- /.twoSteps-block -->
+            </div>
+          </div>
+<!-- Для сервисных центров============================== -->
+          <div class="partner-tabs__body" data-content = "2">
+            <h2 class="partner-tabs-body__title">Преимущества сервисных центров MANTOR</h2>
+            <h3 class="partner-tabs-body__description">Магазины, сотрудничающие с MANTOR, получают преимущества:</h3>
+            <div class="body__experience-cards">
+              <!--==========преимущества сервисных ========= -->
+              <div class="partner-serviceBlock">
+                <div class="partner-serviceBlock__leftSide">
+                  <picture><source srcset="images/AdvantageSC.webp" type="image/webp"><img class="partner-serviceBlock__leftSide serviceBlock-leftSide-image" src="images/AdvantageSC.png" alt="service Scheme"></picture>
+                </div>
+
+                <div class="partner-serviceBlock__rightSide">
+                  <picture><source srcset="images/dillerStatus.webp" type="image/webp"><img class="partner-serviceBlock-rightSide-image " src="images/dillerStatus.png" alt="dillerStatus"></picture>
+                  <p class="partner-serviceBlock__image-subtitle">Сертификат дилера</p>
+
+                  <div class="partner-serviceBlock__rightSide">
+                    <picture><source srcset="images/serviceCart.webp" type="image/webp"><img class="partner-serviceBlock-rightSide-image" src="images/serviceCart.png" alt="dillerStatus"></picture>
+                    <p class="partner-serviceBlock__image-subtitle">Продвижение вашего сервисного центра</p>
+                  </div>
+                </div>
+              </div>
+              <!-- /.serviceBlock -->
+            </div>
+            <div class="twoSteps-block">
+              <h2 class="twoSteps-block__title">
+                Три шага для получения дилерского сертификата
+              </h2>
+              <div class="twoSteps-block__steps">
+                <div class="twoSteps-block__step">
+                  <picture><source srcset="images/step1.webp" type="image/webp"><img class="twoSteps-block__StepImage" src="images/step1.png" alt="step1"></picture>
+                  <p class="twoSteps-block__stepDescription">Подать заявку и предоставить список оборудования для диагностики и ремонта форсунок Common Rail (с приложенными фотографиями рабочих мест</p>
+                </div>
+                <div class="twoSteps-block__step">
+                  <picture><source srcset="images/step2.webp" type="image/webp"><img class="twoSteps-block__StepImage" src="images/step2.png" alt="step2"></picture>
+                  <p class="twoSteps-block__stepDescription">Заключить договор на выполнение послегарантийного ремонта форсунок системы Common Rail под товарным знаком MANTOR»</p>
+                </div>
+                <div class="twoSteps-block__step">
+                  <picture><source srcset="images/step3.webp" type="image/webp"><img class="twoSteps-block__StepImage" src="images/step3.png" alt="step3"></picture>
+                  <p class="twoSteps-block__stepDescription">Заключить договор на поставку запасных частей для ремонта форсунок Common Rail с ООО «Тим Групп» и осуществлять закупку запасных частей на сумму от 30000 рублей в месяц</p>
+                </div>
+              </div>
+          
+              <div class="application-block">
+                <h2 class="application-block__title">заявка на партнёрство</h2>
+                <h3 class="application-block__description">
+                  Оставьте свои контактные данные. Мы свяжемся с вами в близжайшее время
+                </h3>
+          
+                <form class="form" action="#">
+                  <input class="form__form-input" type="text" placeholder="Имя">
+                  <input class="form__form-input" type="text" placeholder="Название организации">
+                  <input class="form__form-input" type="text" placeholder="Телефон">
+                  <button class="order-call-btn" type="submit">
+                    Оставить заявку
+                  </button>
+                  <div class="bottom-line">
+          
+                  </div>
+                </form>
+              </div>
+              <!-- /.twoSteps-block -->
+          
+            </div>
+            <div class="partner-tabs__body">
+              partner tab 02
+            </div>
+          
+          </div>
+        <!--service .patner-tabs end=========================== -->
+      </div>
+      </div>
+    </div>
+    <div class="tabs__body">
+      <div class="tabs__block" id="tab_04">
+        <!-- Блок где купить -->
+          <picture><source srcset="images/shopsMap.webp" type="image/webp"><img class="shopsMap" src="images/shopsMap.png" alt="Map of shops" width="100%" height="100%"></picture>
+          <div class="shop-points">
+            <div class="container">
+              <!-- =====Челябинск ======-->
+              <h3 class="shop-points__city-title">
+                Челябинск
+              </h3>
+              <div class="shop-point">
+                <h2 class="shop-point__title">MANTOR Diesel (ИП Торман Я.В.)</h2>
+                <p><a shop-point__link href="http://www.мантор.рф">мантор.рф</a></p>
+                <table class="shop-point__contacts-table">
+                  <tr>
+                    <td>Адрес</td>
+                    <td>Челябинск, Куйбышева 1-а</td>
+                  </tr>
+              
+                  <tr>
+                    <td>Телефон</td>
+                    <td>+7 (351) 009-09-09</td>
+                  </tr>
+              
+                  <tr>
+                    <td>Эл. почта</td>
+                    <td>mantor.chel@mail.ru</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="shop-point">
+                <h2 class="shop-point__title">MANTOR Diesel (ИП Торман Я.В.)</h2>
+                <p><a shop-point__link href="http://www.мантор.рф">мантор.рф</a></p>
+                <table class="shop-point__contacts-table">
+                  <tr>
+                    <td>Адрес</td>
+                    <td>Челябинск, Куйбышева 1-а</td>
+                  </tr>
+              
+                  <tr>
+                    <td>Телефон</td>
+                    <td>+7 (351) 009-09-09</td>
+                  </tr>
+              
+                  <tr>
+                    <td>Эл. почта</td>
+                    <td>mantor.chel@mail.ru</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="shop-point">
+                <h2 class="shop-point__title">MANTOR Diesel (ИП Торман Я.В.)</h2>
+                <p><a shop-point__link href="http://www.мантор.рф">мантор.рф</a></p>
+                <table class="shop-point__contacts-table">
+                  <tr>
+                    <td>Адрес</td>
+                    <td>Челябинск, Куйбышева 1-а</td>
+                  </tr>
+              
+                  <tr>
+                    <td>Телефон</td>
+                    <td>+7 (351) 009-09-09</td>
+                  </tr>
+              
+                  <tr>
+                    <td>Эл. почта</td>
+                    <td>mantor.chel@mail.ru</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="shop-point">
+                <h2 class="shop-point__title">MANTOR Diesel (ИП Торман Я.В.)</h2>
+                <p><a shop-point__link href="http://www.мантор.рф">мантор.рф</a></p>
+                <table class="shop-point__contacts-table">
+                  <tr>
+                    <td>Адрес</td>
+                    <td>Челябинск, Куйбышева 1-а</td>
+                  </tr>
+              
+                  <tr>
+                    <td>Телефон</td>
+                    <td>+7 (351) 009-09-09</td>
+                  </tr>
+              
+                  <tr>
+                    <td>Эл. почта</td>
+                    <td>mantor.chel@mail.ru</td>
+                  </tr>
+                </table>
+              </div>
+              <!-- Екатеринбург================= -->
+              <h3 class="shop-points__city-title">
+                Екатеринбург
+              </h3>
+              <div class="shop-point">
+                <h2 class="shop-point__title">MANTOR Diesel (ИП Торман Я.В.)</h2>
+                <p><a shop-point__link href="http://www.мантор.рф">мантор.рф</a></p>
+                <table class="shop-point__contacts-table">
+                  <tr>
+                    <td>Адрес</td>
+                    <td>Челябинск, Куйбышева 1-а</td>
+                  </tr>
+              
+                  <tr>
+                    <td>Телефон</td>
+                    <td>+7 (351) 009-09-09</td>
+                  </tr>
+              
+                  <tr>
+                    <td>Эл. почта</td>
+                    <td>mantor.chel@mail.ru</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="shop-point">
+                <h2 class="shop-point__title">MANTOR Diesel (ИП Торман Я.В.)</h2>
+                <p><a shop-point__link href="http://www.мантор.рф">мантор.рф</a></p>
+                <table class="shop-point__contacts-table">
+                  <tr>
+                    <td>Адрес</td>
+                    <td>Челябинск, Куйбышева 1-а</td>
+                  </tr>
+              
+                  <tr>
+                    <td>Телефон</td>
+                    <td>+7 (351) 009-09-09</td>
+                  </tr>
+              
+                  <tr>
+                    <td>Эл. почта</td>
+                    <td>mantor.chel@mail.ru</td>
+                  </tr>
+                </table>
+              </div>
+              <button class="shop-points__become-partner">Стать официальным магазином mantor
+              </button>
+            </div>
+          </div>
+      </div> 
+    </div>
+    <div class="tabs__body">
+      <div class="tabs__block" id="tab_05">
+        <!-- Блок сервисные центры -->
+        <picture><source srcset="images/shopsMap.webp" type="image/webp"><img class="shopsMap" src="images/shopsMap.png" alt="Map of shops" width="100%" height="100%"></picture>
+        <div class="shop-points">
+          <div class="container">
+            <!-- =====Челябинск ======-->
+            <h3 class="shop-points__city-title">
+              Челябинск
+            </h3>
+            <div class="shop-point">
+              <h2 class="shop-point__title">MANTOR Diesel (ИП Торман Я.В.)</h2>
+              <p><a shop-point__link href="http://www.мантор.рф">мантор.рф</a></p>
+              <table class="shop-point__contacts-table">
+                <tr>
+                  <td>Адрес</td>
+                  <td>Челябинск, Куйбышева 1-а</td>
+                </tr>
+        
+                <tr>
+                  <td>Телефон</td>
+                  <td>+7 (351) 009-09-09</td>
+                </tr>
+        
+                <tr>
+                  <td>Эл. почта</td>
+                  <td>mantor.chel@mail.ru</td>
+                </tr>
+              </table>
+            </div>
+            <div class="shop-point">
+              <h2 class="shop-point__title">MANTOR Diesel (ИП Торман Я.В.)</h2>
+              <p><a shop-point__link href="http://www.мантор.рф">мантор.рф</a></p>
+              <table class="shop-point__contacts-table">
+                <tr>
+                  <td>Адрес</td>
+                  <td>Челябинск, Куйбышева 1-а</td>
+                </tr>
+        
+                <tr>
+                  <td>Телефон</td>
+                  <td>+7 (351) 009-09-09</td>
+                </tr>
+        
+                <tr>
+                  <td>Эл. почта</td>
+                  <td>mantor.chel@mail.ru</td>
+                </tr>
+              </table>
+            </div>
+            <div class="shop-point">
+              <h2 class="shop-point__title">MANTOR Diesel (ИП Торман Я.В.)</h2>
+              <p><a shop-point__link href="http://www.мантор.рф">мантор.рф</a></p>
+              <table class="shop-point__contacts-table">
+                <tr>
+                  <td>Адрес</td>
+                  <td>Челябинск, Куйбышева 1-а</td>
+                </tr>
+        
+                <tr>
+                  <td>Телефон</td>
+                  <td>+7 (351) 009-09-09</td>
+                </tr>
+        
+                <tr>
+                  <td>Эл. почта</td>
+                  <td>mantor.chel@mail.ru</td>
+                </tr>
+              </table>
+            </div>
+            <div class="shop-point">
+              <h2 class="shop-point__title">MANTOR Diesel (ИП Торман Я.В.)</h2>
+              <p><a shop-point__link href="http://www.мантор.рф">мантор.рф</a></p>
+              <table class="shop-point__contacts-table">
+                <tr>
+                  <td>Адрес</td>
+                  <td>Челябинск, Куйбышева 1-а</td>
+                </tr>
+        
+                <tr>
+                  <td>Телефон</td>
+                  <td>+7 (351) 009-09-09</td>
+                </tr>
+        
+                <tr>
+                  <td>Эл. почта</td>
+                  <td>mantor.chel@mail.ru</td>
+                </tr>
+              </table>
+            </div>
+            <!-- Екатеринбург================= -->
+            <h3 class="shop-points__city-title">
+              Екатеринбург
+            </h3>
+            <div class="shop-point">
+              <h2 class="shop-point__title">MANTOR Diesel (ИП Торман Я.В.)</h2>
+              <p><a shop-point__link href="http://www.мантор.рф">мантор.рф</a></p>
+              <table class="shop-point__contacts-table">
+                <tr>
+                  <td>Адрес</td>
+                  <td>Челябинск, Куйбышева 1-а</td>
+                </tr>
+        
+                <tr>
+                  <td>Телефон</td>
+                  <td>+7 (351) 009-09-09</td>
+                </tr>
+        
+                <tr>
+                  <td>Эл. почта</td>
+                  <td>mantor.chel@mail.ru</td>
+                </tr>
+              </table>
+            </div>
+            <div class="shop-point">
+              <h2 class="shop-point__title">MANTOR Diesel (ИП Торман Я.В.)</h2>
+              <p><a shop-point__link href="http://www.мантор.рф">мантор.рф</a></p>
+              <table class="shop-point__contacts-table">
+                <tr>
+                  <td>Адрес</td>
+                  <td>Челябинск, Куйбышева 1-а</td>
+                </tr>
+        
+                <tr>
+                  <td>Телефон</td>
+                  <td>+7 (351) 009-09-09</td>
+                </tr>
+        
+                <tr>
+                  <td>Эл. почта</td>
+                  <td>mantor.chel@mail.ru</td>
+                </tr>
+              </table>
+            </div>
+            <button class="shop-points__become-partner">Авторизация сервисного центра в вашем городе
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tabs__body">
+      <div class="tabs__block" id="tab_06">
+        <div class="waranty-block">
+          <div class="container">
+            <h2 class="waranty-block__title">Гарантия</h2>
+            <div class="waranty-block__description">
+              <p class="waranty-block__description-item">На всю продукцию торговай марки установлена повышенная гарантия 6 месяцев с даты продажи.</p>
+              <p class="waranty-block__description-item">В случае наступления гарантийного случая, клиент праве ообратиться в любой сервисный центр, указанный в разделе «ПАРТНЁРЫ», или непосредственно к самому продавцу с целью установления причины выхода из строя запасной части.</p>
+              <p class="waranty-block__description-item">С правилами гарантии и предоставления необходимых документов вы можете ознакомиться в ГАРАНТИЙНОМ ТАЛОНЕ (прилагается к каждому изделию) или на сайте ниже.</p>
+            </div>
+            <div class="waranty-block-points">
+              <div class="waranty-block-point">
+                <picture><source srcset="images/waranty-point.webp" type="image/webp"><img src="images/waranty-point.png" alt="waranty-point" class="waranty-block-point-img"></picture>
+                <span class="waranty-block-point__name">
+                  Гарантийный талон
+                </span>
+              </div>
+
+              <div class="waranty-block-point">
+                <picture><source srcset="images/waranty-point.webp" type="image/webp"><img src="images/waranty-point.png" alt="waranty-point" class="waranty-block-point-img"></picture>
+                <span class="waranty-block-point__name">
+                  документация
+                </span>
+              </div>
+
+              <div class="waranty-block-point">
+                <picture><source srcset="images/waranty-point.webp" type="image/webp"><img src="images/waranty-point.png" alt="waranty-point" class="waranty-block-point-img"></picture>
+                <span class="waranty-block-point__name">
+                  правила гарантии
+                </span>
+              </div>
+              
+            </div>
+          </div>
+        
+      </div>
+      </div>
+    </div>
+    <div class="tabs__body">
+      <div class="tabs__block" id="tab_07">
+        <div class="contacts">
+          <div class="container">
+            <h2 class="contacts__title">Контакты</h2>
+            <p class="contacts__description">
+              Торговая марка MANTOR является зарегистрированным товарным знаком.
+            </p>
+            
+            <div class="twoSides">
+              <div class="leftSide">
+                <h2 class="contacts__official">Официальный дистрибьютор на территории россии</h2>
+                <div class="official-distributor">
+                  <h3 class="official-distributor__title">ООО «Тим Групп»</h3>
+                  <a class="official-distributor__link" href="#">мантор.рф</a>
+                  <table class="official-distributor__table">
+                    <tr>
+                      <td>Адрес</td>
+                      <td>Челябинск, ул.Куйбышева 1-а, оф.2</td>
+                    </tr>
+                    <tr>
+                      <td>Телефон</td>
+                      <td>+ 7 (351) 217-16-67</td>
+                    </tr>
+                    <tr>
+                      <td>Эл. почта</td>
+                      <td> <a class="official-distributor__table-link" href="mailto:atim@mantor.pro">atim@mantor.pro</a></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="rightSide">
+                <h4 class="rightSide__manufacturer">
+                  изготовитель
+                </h4>
+                <p class="rightSide__company">Harbin Malangparts Technical Development Co., Ltd.</p>
+                <p class="rightSide__address">LIMIN DEVELOPMENT ZONE, SONGBEI DISTRICT,HARBIN,CHINA</p>
+                <a href="mailto:info@mantor.pro" class="rightSide__e-mail" >Эл.почта: info@mantor.pro</a>
+                <a href="tel:+86 17615828830" class="rightSide__phone">Тел: +86 17615828830</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    </div>
+</div>
+<div class="popup" id="popup">
+  <div class="popup__wrapper" 
+  id="popup__wrapper">
+  </div>
+  
+  <div class="popup__window">
+    <button class="popup__close" id="popup__close">X</button>
+    <div class="popup__title">Заказать звонок</div>
+    <div class="popup__content">
+      Оставьте свои контактные данные, мы свяжемся с вами в ближайшее время
+    </div>
+    <form class="form" action="#">
+      <input class="form__form-input" type="text" name="#" placeholder="Имя" id="">
+      <input class="form__form-input" type="text" name="#" placeholder="Телефон" id="">
+      <button class="order-call-btn" type="submit">оставить заявку</button>
+    </form>
   </div>
 
-
 </div>
+
+    <!-- <main>
+      
+    </main> -->
+    <footer class="footer">
+    <ul class="mainMenu-list footer-mainMenu-list">
+      <li class="mainMenu-list__item mainMenu-list__item--active"> <a class="mainMenu-list__link" href="#tab_01">О компании</a></li>
+      <li class="mainMenu-list__item"> <a class="mainMenu-list__link" href="#tab_02">Каталог</a></li>
+      <li class="mainMenu-list__item"> <a class="mainMenu-list__link" href="#tab_03">Стать партнёром</a></li>
+      <li class="mainMenu-list__item"> <a class="mainMenu-list__link" href="#tab_04">Где купить</a></li>
+      <li class="mainMenu-list__item"> <a class="mainMenu-list__link" href="#tab_05">сервисные центры</a></li>
+      <li class="mainMenu-list__item"> <a class="mainMenu-list__link" href="#tab_06">Гарантии</a></li>
+      <li class="mainMenu-list__item"> <a class="mainMenu-list__link" href="#tab_07">Контакты</a></li>
+      <li class="mainMenu-list__item">
+        <p id="footer_popupOpen" class="mainMenu-list__link">Оставить заявку</p>
+      </li>
+    </ul>
+    <section class="footer__footer-block">
+      <ul class="footer__footer-list footer-list">
+        <li class="footer-list-item footer-list-item ">
+          <picture><source srcset="images/footer-logo.webp" type="image/webp"><img class="footer-list-item__title" src="images/footer-logo.png" alt="footer-logo"></picture>
+          <span class="footer-list-item__description">Зарегистрированный товарный знак</span>
+        </li>
+        <li class="footer-list-item">
+          <h3 class="footer-list-item__title">ООО «Тим Групп»</h3>
+          <p class="footer-list-item__description">Официальный дистрибьютор на территории России</p>
+        </li>
+        <li class="footer-list-item">
+          <h2 class="footer-list-item__title"><a class="footer-list-item__link" href="tel:+73512171667">+ 7 (351)217-16-67</a></h2>
+          <p class="footer-list-item__description">Челябинск, ул. Куйбышева 1А, оф. 2
+            tim@mantor.pro</p>
+        </li>
+        <li class="footer-list-item__up"><a href="#"><picture><source srcset="images/footer-up.webp" type="image/webp"><img class="footer-up-img" src="images/footer-up.png" alt="footer-up"></picture></a>
+        </li>
+      </ul>
+    </section>
+
+</footer>
+  
+    <script src="js/app.min.js?_v=20220613111310" defer></script>
+</body>
+
+</html>
