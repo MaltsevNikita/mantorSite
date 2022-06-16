@@ -407,6 +407,10 @@ body {
   font-family: partnerultracondensed;
 }
 
+.logo-section-top__img {
+  max-height: 10vw;
+}
+
 .valve {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1192,6 +1196,10 @@ td {
     margin-right: 0;
     width: 80%;
     height: 80%;
+  }
+
+  .thumbnail {
+    display: none;
   }
 
   .header__brandElement {
