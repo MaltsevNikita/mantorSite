@@ -54,7 +54,17 @@
     .frontPage-logo{
       padding-top: 8%;
     }
-
+@media (max-width: 768px) {
+  .front-page{
+    flex-direction: column;
+  }
+  .frontPage-logo{
+    display: none;
+  }
+  .menuItem{
+    padding-top: 5vw;
+  }
+}
   </style>
 </head>
 <body>
@@ -72,11 +82,9 @@
         </a>
       </ul>
     </div>
-
-    <div class="frontPage-logo">
-      <img src="images/front-page-logo.png" alt="mantor-front-logo">
-    </div>
-    
+    <!-- <div class="frontPage-logo">
+      <img src="../images/Cover4.png" alt="mantor-front-logo">
+    </div> -->
     <div>
       <ul class="front-page-rightMenu">
         <a class="menuItem__link" href="main.html#tab_04">
@@ -85,7 +93,7 @@
         <a class="menuItem__link" href="main.html#tab_05">
           <li class="menuItem">Где купить</li>
         </a>
-        <a class="menuItem__link" href="main.html#tab_07">
+        <a class="menuItem__link" href="main.html#tab_06">
           <li class="menuItem">Контакты</li>
         </a>
       </ul>
