@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mantor</title>
+
+  <style>
+/* ====================Fonts for front page============= */
+    @font-face {
+      font-family: "partnerultracondensed";
+      src: local("☺"), url("fonts/partnerultracondensed.eot"), url("fonts/partnerultracondensed.woff") format("woff"), url("fonts/partnerultracondensed.ttf") format("truetype"), url("fonts/partnerultracondensed.svg") format("svg");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body{
+      background-color:#000;
+      background-image:url(images/Cover4.png);
+      background-repeat: no-repeat;
+      background-size:cover;
+    }
+    .front-page{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 25vh;
+    }
+    .front-page-leftMenu{
+      list-style: none;
+      text-decoration: none;
+      color:#000;
+    }
+    .front-page-rightMenu{
+      list-style: none;
+      text-decoration: none;
+      color:#000;
+
+    }
+    .menuItem{
+      color: #fff;
+      padding-top: 30%;
+    }
+    .menuItem__link{
+      color: #000;
+      text-decoration: none;
+    }
+    .front-page-leftMenu, .front-page-rightMenu{
+      text-align: center;
+      font-family: PartnerUltraCondensed;
+      font-size: 36px;
+      font-weight: 900;
+    }
+    .frontPage-logo{
+      padding-top: 8%;
+    }
+@media (max-width: 768px) {
+  .front-page{
+    flex-direction: column;
+  }
+  .frontPage-logo{
+    display: none;
+  }
+  .menuItem{
+    padding-top: 5vw;
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="front-page">
+    <div>
+      <ul class="front-page-leftMenu">
+        <a class="menuItem__link" href="main.html#tab_01">
+          <li class="menuItem">О компании</li>
+        </a>
+        <a class="menuItem__link" href="main.html#tab_02">
+          <li class="menuItem">Каталог</li>
+        </a>
+        <a class="menuItem__link" href="main.html#tab_03">
+          <li class="menuItem">Стать партнёром</li>
+        </a>
+      </ul>
+    </div>
+    <!-- <div class="frontPage-logo">
+      <img src="../images/Cover4.png" alt="mantor-front-logo">
+    </div> -->
+    <div>
+      <ul class="front-page-rightMenu">
+        <a class="menuItem__link" href="main.html#tab_04">
+          <li class="menuItem">Cервисные центры</li>
+        </a>
+        <a class="menuItem__link" href="main.html#tab_05">
+          <li class="menuItem">Где купить</li>
+        </a>
+        <a class="menuItem__link" href="main.html#tab_06">
+          <li class="menuItem">Контакты</li>
+        </a>
+      </ul>
+    </div>
+  
+  </div>
+</body>
+</html>
