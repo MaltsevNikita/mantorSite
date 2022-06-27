@@ -124,7 +124,13 @@ body {
   padding: 29px 0px;
 }
 
+.mainMenu-list:last-child {
+  padding-right: 0;
+}
+
 .mainMenu-list__link {
+  padding-left: 2vw;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -138,7 +144,14 @@ body {
   text-align: left;
 }
 
+.mainMenu-list__item--first {
+  padding-right: 0;
+  font-weight: 400;
+  line-height: 24px;
+}
+
 .mainMenu-list__item--last {
+  padding-right: 0;
   font-weight: 400;
   line-height: 24px;
 }
