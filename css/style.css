@@ -994,6 +994,17 @@ td {
   color: #000;
 }
 
+.no-webp .footer{
+  background-image: url("../images/header-rectangle.png"); }
+
+.footer {
+  padding-top: 300px;
+  margin: 0;
+  padding: 0;
+  font-family: "CenturyGothic";
+  width: 100vw;
+}
+
 .footer__footer-block {
   background-color: #000;
   padding-top: 10px;
@@ -1161,7 +1172,7 @@ td {
   }
 
   .mainMenu-list,
-  .footer-list {
+  .footer-mainMenu-list {
     font-family: partnerultracondensed;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1173,20 +1184,19 @@ td {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    padding-top: 30vh;
+    margin-top: 30vh;
     padding-left: 39px;
-    margin: 0;
     color: #fff;
     background-color: rgba(117, 190, 218, 0);
   }
 
   .mainMenu-list__link,
-  .footer-list__link {
+  .footer-mainMenu-list__link {
     color: #fff;
   }
 
   .mainMenu-list__item,
-  .footer-list__item {
+  .footer-mainMenu-list__item {
     text-align: center;
     padding-top: 11px;
     padding-bottom: 9px;
@@ -1195,7 +1205,7 @@ td {
   }
 
   .mainMenu-list__item:last-child,
-  .footer-list__item:last-child {
+  .footer-mainMenu-list__item:last-child {
     padding-top: 20px;
   }
 
@@ -1204,6 +1214,7 @@ td {
         -ms-transform: translateY(10px);
             transform: translateY(10px);
     cursor: pointer;
+    margin-top: 0;
   }
 
   .service-ico {
@@ -1416,3 +1427,5 @@ td {
 .webp .waranty-block{ background: url(../images/waranty-bkg.webp); }
 
 .webp .contacts{ background-image: url(../images/header-rectangle.webp); }
+
+.webp .footer{ background-image: url(../images/header-rectangle.webp); }
