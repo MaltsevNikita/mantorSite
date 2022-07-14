@@ -129,7 +129,6 @@ body {
 }
 
 .mainMenu-list__link {
-  padding-left: 2vw;
   text-align: center;
   cursor: pointer;
 }
@@ -396,12 +395,16 @@ body {
 }
 
 .fuel-section {
+  width: 100vw;
   padding-top: 48px;
   padding-bottom: 15px;
   background: #0000001a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -1102,6 +1105,10 @@ td {
 }
 
 @media (max-width: 1220px) {
+  .header {
+    width: 100vw;
+  }
+
   .header__brandElement {
     margin-left: 25%;
     width: 60vw;
@@ -1120,14 +1127,18 @@ td {
 
 @media (max-width: 968px) {
   .logo-section-table {
-    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .fuel-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 10vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1137,6 +1148,7 @@ td {
 
 @media (max-width: 768px) {
   .header {
+    width: 100vw;
     height: 100vh;
     padding-top: 75vh;
     background-size: cover;
@@ -1161,7 +1173,7 @@ td {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    padding-top: 100px;
+    padding-top: 30vh;
     padding-left: 39px;
     margin: 0;
     color: #fff;
