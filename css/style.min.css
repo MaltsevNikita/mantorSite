@@ -497,6 +497,7 @@ td {
 }
 
 .twoSteps-block {
+  width: 100vw;
   background: radial-gradient(53.88% 97% at 50% 48.5%, #2e4151 0%, #010007 100%);
   transform: translateX(-45px);
   padding-top: 46px;
@@ -632,6 +633,14 @@ td {
   letter-spacing: 0em;
   text-align: left;
   max-width: 207px;
+}
+
+.shopsMap {
+  background-image: url("../images/shopsMap.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  padding-top: 30vh;
 }
 
 .shop-points {
@@ -845,6 +854,7 @@ td {
 
 .footer {
   background-image: url("../images/header-rectangle.png");
+  background-size: cover;
   padding-top: 300px;
   margin: 0;
   padding: 0;
@@ -1013,8 +1023,12 @@ td {
     padding-top: 20px;
   }
 
+  .body__experience-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .footer-mainMenu-list {
-    transform: translateY(10px);
     cursor: pointer;
     margin-top: 0;
   }
@@ -1155,6 +1169,8 @@ td {
 }
 @media (max-width: 360px) {
   .header {
+    padding-top: 10vh;
+    padding-bottom: 0px;
     width: 100vw;
   }
   .header__logoImg {
@@ -1170,17 +1186,21 @@ td {
     background-color: transparent;
     flex-direction: column;
     transform: translateX(25%);
-    padding-top: 69px;
-    padding-bottom: 148px;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
   }
   .mainMenu-list__link {
+    text-align-last: left;
     color: #fff;
   }
   .mainMenu-list__item {
     font-size: 24px;
     text-align: left;
   }
+  .mainMenu-list__item--first {
+    padding: 0;
+  }
   .mainMenu-list__item--last {
-    display: none;
+    padding: 0;
   }
 }
